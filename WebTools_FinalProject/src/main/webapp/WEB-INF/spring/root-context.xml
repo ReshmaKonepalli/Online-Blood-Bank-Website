@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="userValidator" class="com.neu.finalproject.controller.UserValidator"></bean>
+		<bean id="userUValidator" class="com.neu.finalproject.controller.UserUValidator"></bean>
+		<bean id="userRValidator" class="com.neu.finalproject.controller.UserRValidator"></bean>
+		<bean id="userRUValidator" class="com.neu.finalproject.controller.UserRUValidator"></bean>
+		<bean id="userLValidator" class="com.neu.finalproject.controller.LoginValidator"></bean>
+</beans>
+
